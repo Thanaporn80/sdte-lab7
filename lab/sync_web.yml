@@ -20,12 +20,12 @@
         regexp: 'Thanaporn'
         replace: '8082 Thanaporn'
         backup: yes
-        
 - hosts: host03
   tasks:
-  - name: "change html in 8082"
+  - name: "change html in 8083"
     replace: 
         path: /var/www/default/index.html
-        regexp: 'Panggam'
-        replace: 'Panngam 8083'
+        regexp: 'Thanaporn'
+        replace: 'Mine'
         backup: yes
+
